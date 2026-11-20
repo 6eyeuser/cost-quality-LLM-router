@@ -1,0 +1,16 @@
+# Full dev/training environment. Use Python 3.11 or 3.12 (3.14 lacks wheels for torch/onnxruntime at the time of writing).
+# After your first successful install run `pip freeze > requirements.lock` and commit it for exact reproducibility.
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<1
+httpx>=0.27,<1
+numpy>=1.26,<3
+pandas>=2.1,<4
+scikit-learn>=1.4,<2
+joblib>=1.3,<2
+matplotlib>=3.8,<4
+sentence-transformers>=3.0,<6
+datasets>=2.19,<5
+openai>=1.50,<4
+tqdm>=4.66
+onnxruntime>=1.17,<2
+tokenizers>=0.19,<1

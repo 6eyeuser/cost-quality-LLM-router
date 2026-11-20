@@ -1,0 +1,31 @@
+{
+  "name": "hgb_both",
+  "feature_mode": "both",
+  "threshold": 0.7434265339778011,
+  "target_retention": 0.95,
+  "safety": 0.01,
+  "label_mode": "as_good",
+  "embedder": {
+    "backend": "onnx",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "model_dir": "C:\\Users\\kartik\\Downloads\\llm-router-v2\\llm-router\\gateway\\models\\onnx",
+    "file": "model_int8.onnx"
+  },
+  "cheap_model": "allam-2-7b",
+  "strong_model": "openai/gpt-oss-120b",
+  "train_cheap_ok_rate": 0.6084656084656085,
+  "train_length_ref_max": 3005.0,
+  "n_train": 567,
+  "calibrated": true,
+  "augment": 2,
+  "trained_at": "2026-11-20 11:15:03",
+  "val_metrics": {
+    "val_auc": 0.643092105263158,
+    "val_ece": 0.04993112201260037,
+    "val_brier": 0.22946536089262065,
+    "val_savings_at_target": 0.22453827016628747,
+    "val_retention": 0.9606741573033708,
+    "val_pct_cheap": 0.16494845360824742
+  },
+  "threshold_note": "null => target unreachable on validation; router sends everything to the strong model"
+}

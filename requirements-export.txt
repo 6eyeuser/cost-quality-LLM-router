@@ -1,0 +1,5 @@
+# Only needed to run `python -m gateway.onnx_export`.
+-r requirements.txt
+torch
+transformers
+onnx>=1.16

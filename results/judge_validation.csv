@@ -1,0 +1,781 @@
+query_id,domain,prompt,reference,model_name,response,judge_score,judge_pass,human_pass
+dolly_3579,docqa,"Piombino's first published poems appeared in 1965 in American Weave Literary Journal. Throughout the 1970s, he continued to publish in small literary journals, such as The World, Dodgems, Telephone, and Roof.
+
+His first volume of poetry, titled simply Poems, was published by the Sun & Moon Press in 1988 and won an Author's Recognition Award from the Postgraduate Center for Mental Health in 1992.[citation needed] His second chapbook, Light Street, did not appear until 1996. It was followed by Theoretical Objects (1999), a collection of manifestos, aphorisms, essays, and seemingly autobiographical prose poems.
+
+Piombino's poetry took a different turn with Hegelian Honeymoon (2004), in which he moved away from the conventions of Language poetry to explore more traditional forms. Inspired by the poetry that accompanied an exhibition of Japanese calligraphy, the poems are a cross between haiku and aphorism. The poems were originally published on the SUNY/Buffalo poetics list-serve before being published in chapbook form by Chax Press.
+
+Extract a list of poems and the year they were published in the following form: {Poem name}: {Year published}
+
+And sort the list chronologically","Sure, here is a chronologically-sorted list of poems and the year they were published:
+
+Poems: 1988
+Light Street: 1996
+Theoretical Objects: 1999
+Hegelian Honeymoon: 2004",openai/gpt-oss-120b,"I’m sorry, but the passage you provided does not list any individual poem titles—only the years in which Piombino’s collections and chapbooks were published. Without the specific names of the poems themselves, I can’t generate a chronological list of “{Poem name}: {Year published}.” If you have a source that includes the titles of the poems (for example, a table of contents from one of his books or a bibliography that names individual poems), feel free to share it and I’ll be happy to format the information as you requested.",0.1,0,0.0
+alpaca_19627,chat,Design a classification model for sentiment analysis of movie reviews.,,allam-2-7b,"To design a classification model for sentiment analysis of movie reviews, we can follow these steps:
+
+1. Data Collection: Collect a dataset of movie reviews, which includes both positive and negative reviews. You can use publicly available datasets or gather your own data.
+
+2. Data Preprocessing: Clean the data by removing stop words, punctuation, and special characters. Convert all text to lowercase and tokenize the text into individual words or phrases. You can also perform stemming or lemmatization to reduce words to their root form.
+
+3. Feature Extraction: Extract features from the preprocessed data. You can use bag-of-words model, where each review is represented as a vector of word frequencies. Alternatively, you can use term frequency-inverse document frequency (TF-IDF) to weight the importance of each word in a review.
+
+4. Model Selection: Choose a suitable classification algorithm for sentiment analysis. Some popular algorithms include Naive Bayes, Support Vector Machines (SVM), Random Forest, and Neural Networks.
+
+5. Model Training: Split the dataset into training and testing sets. Train the model on the training set using the chosen algorithm and feature extraction method. Evaluate the model's performance on the testing set using metrics like accuracy, precision, recall, and F1 score.
+
+6. Model Optimization: Fine-tune the model's hyperparameters to improve its performance. You can experiment with different combinations of parameters like learning rate, number of layers, number of neurons, and regularization techniques.
+
+7. Model Evaluation: Test the model's performance on a separate validation set to ensure that the model is not overfitting. You can also use cross-validation techniques to evaluate the model's performance on different subsets of the dataset.
+
+8. Model Deployment: Once the model is trained and optimized, deploy it to classify new movie reviews into positive, negative, or neutral sentiment categories. You can use this model to analyze customer reviews, improve product development, and understand customer preferences.
+
+9. Model Evaluation: Continuously monitor the model's performance and update it periodically to ensure that it remains accurate and relevant. You can also compare the model's performance with other sentiment analysis models to ensure that it is performing well.
+
+By following these steps, you can design a classification model for sentiment analysis of movie reviews that can accurately classify reviews into positive, negative, or neutral sentiment categories. ",0.7,1,1.0
+dolly_3775,docqa,"U2 are an Irish rock band from Dublin, formed in 1976. The group consists of Bono (lead vocals and rhythm guitar), the Edge (lead guitar, keyboards, and backing vocals), Adam Clayton (bass guitar), and Larry Mullen Jr. (drums and percussion). Initially rooted in post-punk, U2's musical style has evolved throughout their career, yet has maintained an anthemic quality built on Bono's expressive vocals and the Edge's chiming, effects-based guitar sounds. Bono's lyrics, often embellished with spiritual imagery, focus on personal and sociopolitical themes. Popular for their live performances, the group have staged several ambitious and elaborate tours over their career.
+
+Who does what in U2?","The rock band U2 features Bono on lead vocals and guitar, the Edge on lead guitar, keyboard and vocals, Adam Clayton on bass guitar and Larry Mullen Jr. on drums and percussion.",allam-2-7b,"The passage describes the members of U2 and their respective roles in the band. It states that Bono is the lead vocalist and rhythm guitarist, while The Edge plays lead guitar, keyboards and backing vocals. Adam Clayton plays bass guitar and Larry Mullen Jr. is the drummer and percussionist.
+Therefore, based on this information, we can conclude that:
+- Bono is responsible for singing lead vocals and playing rhythm guitar in U2
+- The Edge is responsible for singing backing vocals, playing lead guitar and keyboards in U2 
+- Adam Clayton is responsible for playing bass guitar in U2
+- Larry Mullen Jr. is responsible for drumming and percussion in U2 ",1.0,1,1.0
+alpaca_32454,chat,Develop an event planning checklist.,,openai/gpt-oss-120b,"Below is a **comprehensive, step‑by‑step Event Planning Checklist** you can use for virtually any type of event—conference, wedding, product launch, fundraiser, corporate retreat, etc.  
+Feel free to copy‑paste it into a spreadsheet, project‑management tool (Asana, Trello, Monday.com), or print it out and tick items off as you go.
+
+---
+
+## 📅 Overview – Timeline by Phase  
+
+| Phase | When to Start | Key Milestones |
+|-------|---------------|----------------|
+| **1. Concept & Goal‑Setting** | 9‑12 months before event (or ASAP for small events) | Define purpose, audience, budget, date, venue type |
+| **2. Detailed Planning** | 6‑9 months before | Secure venue, vendors, permits, branding |
+| **3. Production & Logistics** | 2‑6 months before | Finalize contracts, create run‑of‑show, start promotion |
+| **4. Final Prep & Execution** | 2‑4 weeks before | Confirm all details, train staff, run rehearsals |
+| **5. Post‑Event Wrap‑Up** | 0‑2 weeks after | Debrief, settle invoices, thank‑you notes, reporting |
+
+> **Tip:** Adjust the timeline based on event size. A 2‑hour workshop may need only 2‑3 months; a multi‑day conference often needs a full year.
+
+---
+
+## ✅ Master Checklist  
+
+### 1️⃣ Concept & Goal‑Setting  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+| 1 | Define event purpose (e.g., brand awareness, fundraising, education) | Organizer | 12 mo | ☐ |
+| 2 | Identify target audience (demographics, size, ticket price) | Marketing | 12 mo | ☐ |
+| 3 | Set measurable objectives (attendance, revenue, leads, satisfaction %) | Organizer | 12 mo | ☐ |
+| 4 | Choose event type & format (in‑person, hybrid, virtual) | Organizer | 12 mo | ☐ |
+| 5 | Draft preliminary budget (venue, catering, AV, staff, marketing, contingency) | Finance | 11 mo | ☐ |
+| 6 | Select tentative date(s) – consider holidays, industry calendars, speaker availability | Organizer | 11 mo | ☐ |
+| 7 | Create event branding concept (logo, tagline, color palette) | Design | 10 mo | ☐ |
+| 8 | Draft high‑level timeline & milestones (see table above) | Project Manager | 10 mo | ☐ |
+
+---
+
+### 2️⃣ Venue & Legal  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+| 9 | Research & shortlist venues (capacity, location, accessibility, tech) | Venue Lead | 9 mo | ☐ |
+|10| Conduct site visits & evaluate quotes | Venue Lead | 9 mo | ☐ |
+|11| Negotiate contract (date, hours, cancellation policy, insurance) | Legal/PM | 8 mo | ☐ |
+|12| Secure venue with deposit | Finance | 8 mo | ☐ |
+|13| Obtain necessary permits & licenses (city, health, alcohol, noise) | Legal | 7 mo | ☐ |
+|14| Arrange venue insurance (general liability, property) | Finance | 7 mo | ☐ |
+|15| Confirm accessibility compliance (ADA, wheelchair, sign language) | Operations | 6 mo | ☐ |
+|16| Draft floor plan (seating, stages, booths, signage) | AV/Design | 6 mo | ☐ |
+
+---
+
+### 3️⃣ Program & Content  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+|17| Create detailed agenda (session titles, times, speakers) | Program Lead | 6 mo | ☐ |
+|18| Identify & book speakers/presenters/entertainers | Program Lead | 6 mo | ☐ |
+|19| Send speaker contracts & speaker‑pack (travel, accommodation, tech needs) | Program Lead | 5 mo | ☐ |
+|20| Collect speaker bios, headshots, presentation files | Program Lead | 4 mo | ☐ |
+|21| Develop session descriptions for marketing & website | Content | 4 mo | ☐ |
+|22| Plan interactive elements (Q&A, polls, networking, gamification) | Program Lead | 4 mo | ☐ |
+|23| Create run‑of‑show (minute‑by‑minute) for day‑of staff | Operations | 3 mo | ☐ |
+|24| Arrange rehearsal schedule (tech run, speaker dry‑run) | AV Lead | 2 mo | ☐ |
+
+---
+
+### 4️⃣ Vendors & Services  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+|25| Catering (menu, dietary restrictions, service style) | Catering Lead | 6 mo | ☐ |
+|26| Audio‑Visual (sound, lighting, streaming, recording) | AV Lead | 6 mo | ☐ |
+|27| Photography / Videography (shots list, branding) | Media Lead | 5 mo | ☐ |
+|28| Décor & Furniture (tables, chairs, signage, backdrops) | Décor Lead | 5 mo | ☐ |
+|29| Transportation / Parking (shuttle, valet, signage) | Logistics | 4 mo | ☐ |
+|30| Security & First‑Aid (staffing, crowd control plan) | Safety Lead | 4 mo | ☐ |
+|31| Rental equipment (tents, generators, Wi‑Fi) | Logistics | 4 mo | ☐ |
+|32| Waste management / recycling plan | Sustainability Lead | 3 mo | ☐ |
+|33| Print materials (programs, badges, tickets, signage) | Print Vendor | 3 mo | ☐ |
+|34| Swag / giveaways (order, branding, packaging) | Marketing | 3 mo | ☐ |
+
+---
+
+### 5️⃣ Marketing & Communications  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+|35| Build event website / landing page (registration, agenda) | Web Team | 6 mo | ☐ |
+|36| Set up ticketing platform (early‑bird, group rates) | Finance | 6 mo | ☐ |
+|37| Create email marketing calendar (save‑the‑date, reminders, post‑event) | Email Mktg | 5 mo | ☐ |
+|38| Design social‑media assets (cover images, posts, ads) | Social Media | 5 mo | ☐ |
+|39| Launch paid advertising (Google, LinkedIn, Facebook) | Paid Media | 4 mo | ☐ |
+|40| Reach out to press & influencers (press release, media kit) | PR | 4 mo | ☐ |
+|41| Develop sponsorship packages & outreach plan | Sponsorship Lead | 4 mo | ☐ |
+|42| Create on‑site signage plan (directional, branding) | Design | 3 mo | ☐ |
+|43| Draft FAQs & customer support script | Support | 3 mo | ☐ |
+|44| Set up event app (agenda, networking, push notifications) | Tech | 2 mo | ☐ |
+|45| Monitor registration numbers & adjust marketing spend | Marketing Ops | Ongoing | ☐ |
+
+---
+
+### 6️⃣ Operations & Logistics (Day‑of)  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+|46| Create master contact list (vendors, staff, speakers) | PM | 2 mo | ☐ |
+|47| Assign staff roles & create shift schedule | HR/PM | 2 mo | ☐ |
+|48| Prepare staff briefing packet (run‑of‑show, maps, emergency plan) | Ops | 2 mo | ☐ |
+|49| Set up registration/check‑in system (badge printer, QR scanners) | Tech | 2 mo | ☐ |
+|50| Conduct final venue walk‑through with all vendors | PM | 1 mo | ☐ |
+|51| Confirm all deliveries & load‑in times | Logistics | 1 mo | ☐ |
+|52| Test all AV equipment, Wi‑Fi, streaming platform | AV Lead | 1 mo | ☐ |
+|53| Prepare emergency/evacuation plan & share with staff | Safety Lead | 1 mo | ☐ |
+|54| Pack “Event Day Kit” (spare cables, batteries, first‑aid, pens, tape) | Ops | 1 mo | ☐ |
+|55| Set up signage, registration desk, sponsor booths | Setup Crew | Day‑of | ☐ |
+|56| Conduct speaker tech checks (mic, slides) | AV Lead | Day‑of | ☐ |
+|57| Run live‑stream rehearsal (if hybrid) | Tech | Day‑of | ☐ |
+|58| Monitor social media & live‑chat during event | Social Team | Day‑of | ☐ |
+|59| Capture photos/video per shot list | Media | Day‑of | ☐ |
+|60| Manage catering service (timing, dietary notes) | Catering Lead | Day‑of | ☐ |
+|61| Collect feedback forms / QR survey links | Ops | Day‑of | ☐ |
+|62| Close‑out registration (badge pick‑up, swag distribution) | Front Desk | Day‑of | ☐ |
+|63| Conduct post‑event debrief with core team (what worked, what didn’t) | PM | 1 wk after | ☐ |
+
+---
+
+### 7️⃣ Financial & Post‑Event  
+| ✅ | Task | Owner | Due | Status |
+|----|------|-------|-----|--------|
+|64| Reconcile all vendor invoices (ensure contracts met) | Finance | 2 wk after | ☐ |
+|65| Process final payments & retain receipts for audit | Finance | 2 wk after | ☐ |
+|66| Review budget vs. actuals; calculate ROI (attendance, leads, revenue) | Finance/Marketing | 3 wk after | ☐ |
+|67| Send thank‑you emails to speakers, sponsors, attendees | PM | 1 wk after | ☐ |
+|68| Distribute post‑event survey results & key insights to stakeholders | PM | 2 wk after | ☐ |
+|69| Upload event recordings, photos, and presentations to portal | Media | 2 wk after | ☐ |
+|70| Publish post‑event blog recap & highlight reel | Content | 2 wk after | ☐ |
+|71| Archive all project files (contracts, designs, contacts) in shared drive | PM | 3 wk after | ☐ |
+|72| Conduct internal debrief & document lessons‑learned for next event | PM | 3 wk after | ☐ |
+|73| Renew or cancel any ongoing vendor contracts (e.g., venue hold) | Legal/Finance | 1 mo after | ☐ |
+
+---
+
+## 📋 Printable / Exportable Template  
+
+If you prefer a ready‑to‑print version, copy the table rows above into **Google Sheets**, **Excel**, or **Airtable** and add conditional formatting:
+
+1. **Column A** – ✅ checkbox (Insert → Checkbox).  
+2. **Column E** – Status (Not Started / In Progress / Completed).  
+3. Use **Data Validation** for Owner dropdown (list of team members).  
+4. Add **Conditional Formatting**:  
+   - Red if Due date < TODAY() and not completed.  
+   - Yellow if Due date within 7 days.  
+   - Green when Status = Completed.  
+
+You can also create a **Kanban board** in Trello or Asana using the same tasks, moving cards from “To‑Do → In Progress → Done”.
+
+---
+
+## 🛠️ Helpful Tools & Resources  
+
+| Category | Recommended Tools (Free/Low‑Cost) |
+|----------|-----------------------------------|
+| Project Management | **Trello**, **Asana**, **ClickUp**, **Monday.com** |
+| Budget Tracking | **Google Sheets**, **Excel**, **Smartsheet** |
+| Registration & Ticketing | **Eventbrite**, **Cvent**, **Ticket Tailor**, **HeySummit** |
+| Event Website | **Squarespace**, **Wix**, **WordPress + Event plugins** |
+| Email Marketing | **Mailchimp**, **Sendinblue**, **HubSpot** |
+| Social Media Scheduling | **Buffer**, **Hootsuite**, **Later** |
+| AV/Streaming | **Zoom Webinar**, **Hopin**, **vMix**, **OBS Studio** |
+| Survey & Feedback | **Google Forms**, **Typeform**, **SurveyMonkey** |
+| Design | **Canva**, **Adobe Express**, **Figma** |
+| Contracts & E‑sign | **DocuSign**, **HelloSign**, **Adobe Sign** |
+| Insurance | **EventHelper**, **Markel**, **Hiscox** |
+
+---
+
+## 🎉 Quick‑Start Mini‑Checklist (For a 3‑Month Event)
+
+If you’re on a tighter timeline, focus on the essentials:
+
+| Week | Core Action |
+|------|-------------|
+| **12‑10** | Define purpose, audience, budget; pick date; reserve venue. |
+| **9‑8** | Book keynote speaker(s) & main vendors (catering, AV). |
+| **7‑6** | Launch event website & ticketing; start early‑bird promotion. |
+| **5‑4** | Finalize agenda, collect speaker assets, secure permits. |
+| **3‑2** | Confirm all contracts, run AV test, print badges/signage. |
+| **1** | Staff briefing, run‑through, set up venue, go live! |
+| **0‑2 days after** | Send thank‑you emails, collect feedback, settle invoices. |
+
+---
+
+### 🎯 Final Tips for Success  
+
+1. **Build in a 10‑15 % contingency** in the budget for unexpected costs.  
+2. **Assign a single point‑person** for each major vendor (catering, AV, etc.) to avoid miscommunication.  
+3. **Document every decision** (email threads, signed contracts) in a shared folder—helps with audits and future events.  
+4. **Test all technology** at least twice (once a week before, once the day before).  
+5. **Keep the attendee experience front‑and‑center**: signage, Wi‑Fi, clear schedules, easy check‑in.  
+6. **Post‑event data is gold**—track leads, NPS, social mentions, and feed those numbers back into your ROI calculation.
+
+---
+
+**You’re all set!** Use this checklist as a living document—add, remove, or reorder items to fit the unique needs of your event. Good luck, and may your event be smooth, memorable, and a resounding success! 🎉",0.9,1,1.0
+alpaca_36389,chat,"Name a type of environment that is typically associated with warm, humid weather.",,allam-2-7b,"A type of environment that is typically associated with warm, humid weather is a Tropical Rainforest. 
+In a tropical rainforest, the climate is characterized by high temperatures and high levels of precipitation throughout the year. The humidity is usually very high due to the large amount of water vapor in the air. Tropical rainforests are found near the Equator and include areas like parts of South America, Africa, Asia, and Australia. These environments support a diverse range of plant and animal species due to the abundant resources provided by the warm, humid climate. ",1.0,1,1.0
+alpaca_50118,chat,Explain the effects of automation on job trends.,,openai/gpt-oss-120b,"**Automation and Job Trends: A Comprehensive Overview**
+
+Automation—using machines, software, and AI to perform tasks that humans once did—has reshaped the labor market for centuries, from the steam engine to today’s AI‑driven systems. Its impact on jobs is complex: it eliminates some roles, creates new ones, and changes the nature of many existing occupations. Below is a structured look at the main effects, illustrated with data and examples where possible.
+
+---
+
+## 1. Job Displacement (Jobs That Shrink or Disappear)
+
+| **Industry / Occupation** | **Typical Automation Technologies** | **Typical Impact** |
+|---------------------------|--------------------------------------|--------------------|
+| Manufacturing (assembly line workers) | Industrial robots, CNC machines | 20‑30 % decline in low‑skill production jobs in many advanced economies (e.g., US, Germany) over the past two decades |
+| Retail (cashiers, inventory clerks) | Self‑checkout kiosks, RFID inventory systems | Cashier numbers fell ~10 % in the U.S. from 2015‑2023, even as overall retail employment grew modestly |
+| Transportation & Logistics (truck drivers, warehouse pickers) | Autonomous vehicles, warehouse robots (e.g., Kiva) | Early pilots suggest a potential 15‑25 % reduction in driver hours over the next 10‑15 years |
+| Administrative support (data entry, filing) | RPA (Robotic Process Automation), OCR, AI chatbots | Many routine clerical roles have been consolidated; a 2022 OECD study found a 12 % reduction in “clerical” jobs in high‑income countries since 2010 |
+
+**Why displacement happens**
+
+1. **Cost Savings** – Machines can work 24/7 without wages, benefits, or fatigue.
+2. **Speed & Accuracy** – Robots and AI often outperform humans on repetitive, high‑precision tasks.
+3. **Scalability** – A single software platform can serve millions of customers, reducing the need for proportional staff.
+
+---
+
+## 2. Job Creation (New Roles and Expanding Sectors)
+
+| **Emerging Occupation** | **Automation Driver** | **Growth Rate (Recent)** |
+|--------------------------|-----------------------|--------------------------|
+| AI/ML engineers & data scientists | Development of AI models | 30‑40 % annual growth in the U.S. (LinkedIn 2023 “Emerging Jobs” report) |
+| Robotics technicians & maintenance engineers | Deployment of industrial robots | 12‑15 % CAGR globally (International Federation of Robotics) |
+| Cybersecurity analysts | Increased digital attack surface | 10‑12 % CAGR (Cybersecurity Ventures) |
+| Digital platform managers (e‑commerce, gig‑economy) | Marketplace automation | 8‑10 % CAGR in the U.S. |
+| Green‑tech installers (solar, EV chargers) | Automation of energy systems | 9‑11 % CAGR (IEA) |
+
+**Key mechanisms for job creation**
+
+- **New industries**: AI, autonomous vehicles, renewable energy, and biotech have sprung up largely because automation made them economically viable.
+- **Complementary roles**: Every robot or algorithm needs design, programming, integration, monitoring, and repair—jobs that didn’t exist at the same scale before.
+- **Productivity spillovers**: Automation can lower the cost of goods and services, expanding demand and thus creating indirect jobs (e.g., cheaper consumer electronics boost retail and logistics).
+
+---
+
+## 3. Job Transformation (Changing Skill Requirements)
+
+| **Occupation** | **Before Automation** | **After Automation** | **New Skill Mix** |
+|----------------|-----------------------|----------------------|-------------------|
+| Bank teller | Cash handling, basic customer service | Digital transaction support, cross‑selling, data‑driven advice | Digital literacy, analytics, consultative selling |
+| Journalist | Writing, fact‑checking | Data journalism, AI‑assisted content generation, multimedia storytelling | Coding basics, data visualization, AI prompt engineering |
+| Nurse | Direct patient care | Remote monitoring, tele‑health coordination, AI‑driven diagnostics | Telemedicine platforms, health‑data interpretation, AI ethics |
+| Farmer | Manual planting/harvesting | Precision agriculture (drones, IoT sensors) | GIS, sensor data analysis, robotics operation |
+
+**Implications**
+
+- **Upskilling & reskilling** become essential for workers to stay employable.
+- **Lifelong learning** is shifting from a “once‑in‑a‑career” event to a continuous process.
+- **Education systems** are increasingly emphasizing STEM, data literacy, and soft skills (creativity, problem‑solving) that are harder to automate.
+
+---
+
+## 4. Macro‑Level Trends in Employment
+
+| **Metric** | **Pre‑Automation Era (1970‑1990)** | **Recent Decade (2010‑2020)** | **Projected 2030‑2040** |
+|------------|-----------------------------------|------------------------------|--------------------------|
+| Share of employment in manufacturing (OECD) | ~20 % | ~12 % | ~9 % |
+| Share of employment in services (incl. tech) | ~65 % | ~73 % | ~78 % |
+| Share of “high‑skill” occupations (college‑educated) | ~30 % | ~38 % | ~45 % |
+| Unemployment rate (U.S.) | 5‑6 % (stable) | 3‑4 % (pre‑COVID) → 5‑6 % (post‑COVID) | 3‑4 % (assuming effective policy) |
+| Labor‑productivity growth (annual) | ~1.5 % | ~2.2 % (U.S.) | 2.5‑3 % (driven by AI) |
+
+*Sources: OECD Employment Outlook, World Bank World Development Indicators, McKinsey Global Institute “The Future of Work” (2022).*
+
+**Takeaway:** While overall employment numbers have remained relatively stable, the composition of the workforce is shifting dramatically toward service‑oriented, high‑skill, and technology‑intensive jobs.
+
+---
+
+## 5. Geographic and Demographic Variations
+
+| **Region / Group** | **Automation Impact** | **Key Drivers** |
+|--------------------|-----------------------|-----------------|
+| **Advanced economies (US, EU, Japan)** | Higher displacement in routine manufacturing & admin; strong job creation in tech & professional services | High capital intensity, strong R&D ecosystems |
+| **Emerging economies (India, Vietnam, Kenya)** | Faster adoption in low‑skill manufacturing; potential “premature de‑industrialization” if automation outpaces skill development | Lower labor costs, but rising investment in affordable robotics |
+| **Women** | Gains in flexible, remote, and digital gig work; losses in routine retail & clerical jobs | Automation of cashiers, data entry; growth of e‑commerce platforms |
+| **Older workers (55+)** | Higher risk of displacement due to skill mismatch; lower re‑training participation rates | Need for targeted reskilling programs |
+| **Rural vs. urban** | Urban areas see more high‑skill job growth; rural areas risk widening gaps unless broadband and training are expanded | Infrastructure and access to digital tools |
+
+---
+
+## 6. Policy Responses & Best Practices
+
+| **Policy Lever** | **What It Does** | **Examples** |
+|------------------|------------------|--------------|
+| **Education reform** | Embeds coding, data literacy, and problem‑solving early | Finland’s “Phenomenon‑Based Learning”, Singapore’s “Future Skills” curriculum |
+| **Lifelong‑learning subsidies** | Provides vouchers or tax credits for adult upskilling | Germany’s “Weiterbildungsgutschein”, U.S. Workforce Innovation and Opportunity Act (WIOA) grants |
+| **Transition assistance** | Income support, career counseling, and job‑placement services for displaced workers | Canada’s “Canada Emergency Wage Subsidy” (adapted for transition), EU’s “Just Transition Fund” |
+| **Tax incentives for human‑centric jobs** | Encourages firms to retain or create roles that require empathy, creativity, or complex judgment | France’s “Tax credit for training in digital skills”, UK’s “Apprenticeship Levy” |
+| **Regulation of AI/automation** | Sets standards for transparency, safety, and ethical use, indirectly shaping labor demand | EU AI Act (pending), Singapore’s Model AI Governance Framework |
+
+**Key take‑away:** No single policy solves the challenge. A mix of education, social safety nets, and incentives for “human‑augmented” work tends to produce the most resilient labor markets.
+
+---
+
+## 7. Outlook: What the Next 10‑20 Years May Look Like
+
+| **Scenario** | **Assumptions** | **Likely Job Landscape** |
+|--------------|----------------|--------------------------|
+| **Optimistic (high‑skill transition)** | Rapid upskilling, strong public‑private partnership, AI augmenting rather than replacing most tasks | Unemployment stays low; 30‑40 % of jobs involve AI‑assisted decision‑making; new “AI‑ethics” and “human‑machine collaboration” professions flourish |
+| **Status‑quo** | Moderate upskilling, uneven adoption across sectors, modest policy changes | Some sectors (e.g., logistics, retail) see net job loss; overall employment stable but wage polarization widens |
+| **Pessimistic (automation outpaces reskilling)** | Limited training resources, high adoption of fully autonomous systems, weak safety nets | Persistent structural unemployment in low‑skill groups; increased pressure on universal basic income or negative‑income tax proposals |
+
+---
+
+## 8. Practical Recommendations for Individuals
+
+1. **Develop “automation‑adjacent” skills**: data analysis, programming basics, AI prompt engineering, and digital project management.
+2. **Cultivate uniquely human capabilities**: creativity, empathy, complex problem‑solving, negotiation, and strategic thinking.
+3. **Leverage micro‑credential platforms**: Coursera, edX, Udacity, and industry‑specific bootcamps often provide stackable certificates that employers recognize.
+4. **Stay informed about industry trends**: Subscribe to sector newsletters (e.g., “AI Weekly”, “Manufacturing Automation News”) to anticipate where new roles will emerge.
+5. **Network in emerging ecosystems**: Join local AI or robotics meetups, hackathons, or maker spaces to gain hands‑on experience and visibility.
+
+---
+
+## 9. Bottom Line
+
+- **Automation is not a monolithic job killer**; it reshapes the labor market by displacing routine tasks, spawning new industries, and altering the skill mix of existing roles.
+- **The net effect on total employment** is historically modest—jobs are lost in some categories but created in others, often at a faster pace in high‑skill sectors.
+- **The decisive factor** is the speed and inclusiveness of **skill development** and **policy adaptation**. Societies that invest in lifelong learning, provide robust transition support, and encourage human‑centric innovation are likely to reap productivity gains while maintaining broad-based employment.
+
+Understanding these dynamics helps workers, employers, and policymakers navigate the transition more effectively and shape a future where automation amplifies human potential rather than merely substituting it.",0.9,1,1.0
+dolly_2094,docqa,"""Chengtu, is a sub-provincial city which serves as the capital of the Chinese province of Sichuan. With a population of 20,937,757 inhabitants during the 2020 Chinese census, it is the fourth most populous city in China, and it is the only city apart from the four direct-administered municipalities with a population of over 20 million. It is traditionally the hub in Southwest China.
+
+Chengdu is located in central Sichuan. The surrounding Chengdu Plain is known as the """"Country of Heaven"""" (Chinese: 天府之国; pinyin: Tiānfǔ zhi Guó) and the """"Land of Abundance"""". Its prehistoric settlers included the Sanxingdui culture. The site of Dujiangyan, an ancient irrigation system, is designated as a World Heritage Site. The Jin River flows through the city. Chengdu's culture largely reflects that of its province, Sichuan; in 2011, it was recognized by UNESCO as a city of gastronomy. It is associated with the giant panda, a Chinese national symbol, which inhabits the area of Sichuan; the city is home to the Chengdu Research Base of Giant Panda Breeding.""
+
+Which animal is associated with Chengdu?","Chengdu is associated with the giant panda, a Chinese national symbol, which inhabits the area of Sichuan; the city is home to the Chengdu Research Base of Giant Panda Breeding.",openai/gpt-oss-120b,The animal most closely associated with Chengdu is the **giant panda**.,1.0,1,1.0
+dolly_325,docqa,"Bitcoin (abbreviation: BTC or XBT; sign: ₿) is a protocol which implements a highly available, public, permanent, and decentralized ledger. In order to add to the ledger, a user must prove they control an entry in the ledger. The protocol specifies that the entry indicates an amount of a token, bitcoin with a minuscule b. The user can update the ledger, assigning some of their bitcoin to another entry in the ledger. Because the token has characteristics of money, it can be thought of as a digital currency.
+
+Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. The cryptocurrency was invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto. The currency began use in 2009, when its implementation was released as open-source software.: ch. 1  The word ""bitcoin"" was defined in a white paper published on October 31, 2008. It is a compound of the words bit and coin.
+
+The Library of Congress reports that, as of November 2021, nine countries have fully banned bitcoin use, while a further forty-two have implicitly banned it. A few governments have used bitcoin in some capacity. El Salvador has adopted Bitcoin as legal tender, although use by merchants remains low. Ukraine has accepted cryptocurrency donations to fund the resistance to the 2022 Russian invasion. Iran has used bitcoin to bypass sanctions.
+
+Based on the reference text about Bitcoin, how many countries have banned Bitcoin?","As of November 2021, 42 countries have implicitly banned and 9 countries have fully banned the use of Bitcoin.",openai/gpt-oss-120b,"According to the reference, **nine countries have fully banned Bitcoin**.",0.4,0,0.0
+alpaca_8494,chat,"Find the most common color in the list
+
+Red, orange, yellow, green, blue, purple",,openai/gpt-oss-20b,"All six colors appear exactly once in the list, so none of them is more common than the others. In other words, every color is equally common.",1.0,1,1.0
+dolly_8325,docqa,"Lawson, Inc. (株式会社ローソン, Kabushiki gaisha Rōson) is a convenience store franchise chain in Japan. The store originated in the United States in Cuyahoga Falls, Ohio, but exists today as a Japanese company based in Shinagawa, Tokyo.
+
+What is Lawson in Japan?",Lawson is a convenience store franchise chain in Japan,allam-2-7b,"Lawson, Inc. is a convenience store franchise chain in Japan that originated in the United States. In Japan, Lawson operates as a Japanese company based in Shinagawa, Tokyo. These stores are known for providing various services and products to customers, making them a popular destination for daily needs and emergencies alike. [1]
+
+Lawson has a vast network of stores across Japan, with over 14,000 locations as of 2021. These stores offer a wide range of products, including food, drinks, snacks, household items, and personal care products. In addition to traditional convenience store items, Lawson stores also offer services such as ATMs, lottery ticket sales, and even mobile phone sales and repairs. [2]
+
+Lawson has also expanded its services to include online shopping, where customers can order products from the convenience store's website and have them delivered to their homes. This online shopping service, called Lawson Home Shopping, allows customers to purchase items from a wide range of categories, including food, drinks, and household products. [2]
+
+Furthermore, Lawson has also ventured into the food and beverage industry, operating restaurants and cafes under the Lawson brand. These establishments offer a variety of food options, including Japanese cuisine, Western cuisine, and snacks. [2]
+
+In addition to its retail operations, Lawson has also established partnerships with other companies to offer services such as mobile phone sales, car rental, and even a pet adoption service. [2]
+
+Overall, Lawson in Japan is a prominent convenience store chain that offers a wide range of products, services, and experiences to its customers. ",1.0,1,1.0
+dolly_13424,docqa,"Pwojè Pyebwa (Tree Project) is a tree-planting project in Haiti. It was designed, implemented, and initially run by cultural anthropologists. Different from reforestation projects, Pwojè Pyebwa promoted agroforestry—the strategic mixing of crops, trees, and animals. The agroforestry project in Haiti project was funded by the United States Agency for International Development USAID, but implemented through the Pan American Development Organization (PADF) and CARE. It was originally called the Agroforestry Outreach Project (AOP). The original project spanned a decade (1981–1991), but policies from Pwojè Pyebwa continued to direct PADF tree-planting through a second decade (1992 to 2000).
+
+The project was executed throughout the country. Based on Haitian farmers’ voluntary and widespread participation, the project has been deemed a success by many. Pwojè Pyebwa distributed free trees to farmers, and advised on the incorporation of trees into existing cropping arrangements based on anthropological research into the land tenure, agricultural systems, and the historical market-orientation of Haitian peasant farmers. The project eventually won the Praxis prize in applied anthropology. It is estimated that the project involved one-third of the entire rural Haitian population. Approximately 65 million trees were planted.
+
+Given a reference text about Pwojè Pyebwa, who funded the project?",Pwojè Pyebwa was funded by the United States Agency for International Development (USAID).,allam-2-7b,"The context mentions that Pwojè Pyebwa was funded by the United States Agency for International Development USAID. 
+Therefore, based on this information, we can conclude that ""USAID"" is the correct answer to the question: ""Who funded Pwojè Pyebwa?"" ",1.0,1,1.0
+alpaca_14134,chat,Generate a metaphor that compares a mountain and a person.,,allam-2-7b,"A mountain is to life as a person is to a story; both have ups and downs, twists and turns, and beautiful vistas and challenges to navigate. ",0.4,0,0.0
+alpaca_44670,chat,"Edit the following sentence to make it more concise: 
+""We cannot do what is necessary because of the limited resources we have.""",,allam-2-7b,"""Limited resources hinder our ability to do what is necessary."" ",1.0,1,1.0
+dolly_12254,docqa,"Elahi was born in Jeyhunabad, a small Kurdish village near the eponymous capital of Kermanshah Province. His father, Hajj Nematollah (1871–1920), was a mystic and poet who was a leader of the Ahl-e Haqq and revered as a saint. From early childhood, he led an ascetic, secluded life of rigorous discipline under his father's supervision with a special focus on mysticism, music, and ethics. In addition to religious and moral instruction, he received the classical education of the time. During study and contemplation in his youth, he established the basis of his philosophical and spiritual reflections.
+
+Where was Ostad Elahi born and who was his father","He was born in Jeyhunabad, a small Kurdish village and his father was Hajj Nematollah, a mystic and poet and a leader of Ahl-e Haqq",openai/gpt-oss-120b,"**Birthplace:** Ostad Elahi was born in **Jeyhunabad**, a small Kurdish village near the city of Kermanshah in what is today Kermanshah Province, Iran.
+
+**Father:** His father was **Hajj Nematollah** (1871 – 1920), a mystic, poet, and respected leader of the Ahl‑e Haqq (Yarsan) tradition, who is venerated as a saint.",1.0,1,1.0
+alpaca_44253,chat,"Imagine a scene in a story using the given elements.
+
+Cold, Night, Stars",,openai/gpt-oss-120b,"The wind had already stripped the last warmth from the world, and the night lay over the valley like a thick, black blanket. Frost clung to every blade of grass, turning the meadow into a field of tiny, glittering crystals that caught the faintest breath of air and shivered in response. Above, the sky was a flawless dome of ink, unmarred by clouds, and the stars—so many of them, so close you could almost feel their cold fire—spilled across it in a silent, endless cascade.
+
+A lone figure stood at the edge of the old stone bridge, the wood beneath his boots creaking with each hesitant step. He pulled his coat tighter, the wool rubbing against his skin like a reminder that even the thickest fabric could not keep out the night’s bite. His breath rose in quick, white puffs, each exhale a fleeting ghost that dissolved the moment it touched the air.
+
+He lifted his eyes, and the heavens opened. The Milky Way stretched like a river of powdered glass, its core a bright, milky blaze that seemed to pulse in rhythm with his own racing heart. Shooting stars streaked across the void, brief white scars that vanished before the darkness could claim them. The cold was no longer just a sensation on his skin; it became a presence, a silent companion that whispered through the pine trees lining the riverbank, rustling their needles in a language older than any spoken word.
+
+In the distance, the faint outline of the village lights flickered like fireflies trapped in a jar, their amber glow a stark contrast to the indifferent brilliance above. Yet even those lights seemed to bow to the night, their warmth swallowed by the vast, indifferent cosmos.
+
+He took a step forward, the bridge’s stones slick with ice, and felt the universe press down on him—vast, indifferent, beautiful. The cold bit at his cheeks, the night wrapped him in its dark arms, and the stars, indifferent witnesses to every human breath, continued their eternal dance, indifferent to the fleeting drama playing out beneath them. In that moment, he was both infinitesimally small and profoundly alive, a single heartbeat echoing against the endless, cold night.",1.0,1,1.0
+alpaca_29594,chat,"Fix the underlying message of the following sentence.
+
+You don't need to bother.",,openai/gpt-oss-120b,"Here are a few ways to re‑phrase the sentence so the underlying message sounds more courteous, reassuring, or encouraging (instead of sounding dismissive):
+
+| Original | Revised (Polite) | Revised (Reassuring) | Revised (Encouraging) |
+|----------|------------------|----------------------|-----------------------|
+| You don’t need to bother. | No need to go out of your way. | You don’t have to worry about it. | Feel free to skip it if it’s inconvenient. |
+| | Please don’t trouble yourself. | It’s perfectly fine to leave it as is. | You can focus on what matters most. |
+| | There’s no need to trouble yourself. | You can relax—nothing else is required. | If it’s a hassle, it’s okay to let it go. |
+| | Don’t feel obligated to do anything extra. | You’re all set; nothing more is needed. | Prioritize what’s important to you. |
+
+**How to choose the best version**
+
+1. **Consider the tone you want**  
+   - *Polite*: Use “please,” “don’t feel obligated,” or “no need to go out of your way.”  
+   - *Reassuring*: Emphasize that everything is already fine (“you’re all set,” “nothing else is required”).  
+   - *Encouraging*: Invite the listener to focus on higher‑priority tasks (“focus on what matters most”).
+
+2. **Match the context**  
+   - If you’re responding to a request for help, a polite version works best.  
+   - If you’re trying to calm someone’s anxiety, go with a reassuring version.  
+   - If you want to empower the person to make a choice, use an encouraging version.
+
+Feel free to pick the one that best fits the situation, or mix elements from different columns to craft a custom sentence!",1.0,1,1.0
+dolly_13667,docqa,"Machine learning (ML) is a field of inquiry devoted to understanding and building methods that ""learn"" – that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence.
+
+Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, agriculture, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.
+
+A subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers, but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.
+
+Some implementations of machine learning use data and neural networks in a way that mimics the working of a biological brain.
+
+In its application across business problems, machine learning is also referred to as predictive analytics.
+
+Overview
+Learning algorithms work on the basis that strategies, algorithms, and inferences that worked well in the past are likely to continue working well in the future. These inferences can be obvious, such as ""since the sun rose every morning for the last 10,000 days, it will probably rise tomorrow morning as well"". They can be nuanced, such as ""X% of families have geographically separate species with color variants, so there is a Y% chance that undiscovered black swans exist"".
+
+Machine learning programs can perform tasks without being explicitly programmed to do so. It involves computers learning from data provided so that they carry out certain tasks. For simple tasks assigned to computers, it is possible to program algorithms telling the machine how to execute all steps required to solve the problem at hand; on the computer's part, no learning is needed. For more advanced tasks, it can be challenging for a human to manually create the needed algorithms. In practice, it can turn out to be more effective to help the machine develop its own algorithm, rather than having human programmers specify every needed step.
+
+The discipline of machine learning employs various approaches to teach computers to accomplish tasks where no fully satisfactory algorithm is available. In cases where vast numbers of potential answers exist, one approach is to label some of the correct answers as valid. This can then be used as training data for the computer to improve the algorithm(s) it uses to determine correct answers. For example, to train a system for the task of digital character recognition, the MNIST dataset of handwritten digits has often been used.
+
+History and relationships to other fields
+See also: Timeline of machine learning
+The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.
+
+By the early 1960s an experimental ""learning machine"" with punched tape memory, called CyberTron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively ""trained"" by a human operator/teacher to recognize patterns and equipped with a ""goof"" button to cause it to re-evaluate incorrect decisions. A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification. Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973. In 1981 a report was given on using teaching strategies so that a neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: ""A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."" This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper ""Computing Machinery and Intelligence"", in which the question ""Can machines think?"" is replaced with the question ""Can machines do what we (as thinking entities) can do?"".
+
+Modern-day machine learning has two objectives, one is to classify data based on models which have been developed, the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform
+
+What is machine learning, and when did it first emerge?","Machine learning  is a branch of AI concerned with understanding and developing methods that learn,""  that is, methods that use data to improve performance on a set of tasks.  Machine learning algorithms construct a model from sample data, referred to as training data, in order to make predictions or decisions without being explicitly programmed to do so. It first emerged in the 1960s.",allam-2-7b,"Machine learning is a field of artificial intelligence that involves training computers to learn from data and improve their performance on a task over time. It involves algorithms that can learn from and make decisions or predictions on their own, without being explicitly programmed. [1] Machine learning has been around for decades, with the field of machine learning being established in the 1960s and 1970s. [1] The field has evolved over time, with the development of new algorithms and techniques, and the application of machine learning to new areas of study. [1] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Supervised learning involves training a model on labeled data, while unsupervised learning involves training a model on unlabeled data. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition, natural language processing, and predictive analytics. [1] Machine learning is a subfield of artificial intelligence, which is concerned with the development of algorithms that can learn from and make decisions or predictions based on data. [2] Machine learning algorithms can be supervised, unsupervised, or semi-supervised learning. [2] Machine learning has been applied to a wide range of applications, including image recognition, speech recognition,",0.1,0,1.0
+dolly_5164,docqa,"Jeremiah Mutwalante Twa-Twa (born 29 January 1951) is a Ugandan physician, public health specialist, and politician. His last name is sometimes spelled ""Twatwa"". He is the elected Member of Parliament representing Iki-Iki County, Budaka District. He has served in that capacity since May 2011. Before that, he served as the director of the Division of Child Health at the Uganda Ministry of Health from 2005 until 2010.
+
+Background and education
+He was born in Budaka District on 29 January 1951. Twa-Twa attended Sekulo Primary School in Budaka District from 1959 until 1964. He then studied at Mbale College in Mbale District from 1965 until 1966. He undertook his O-Level studies (S1-S4) at Jinja College in Jinja District from 1967 until 1970. In 1971, he entered Namilyango College in Mukono District to pursue his A-Level (S5-S6) education, graduating in 1972.
+
+He graduated from Makerere University Medical School in 1978 with a Bachelor of Medicine and Bachelor of Surgery degree. In 1981, he obtained a Diploma in Public Health from the Makerere University School of Public Health. In 1995, he received a Master of Arts degree in demography from the same university. He also holds a Certificate in Epidemiology, awarded in 1983 by the University of Nairobi.[
+
+Given a reference text about Jeremiah Mutwalante Twa-Twa, when and where was he born?","Jeremiah Mutwalante Twa-Twa was born in the Budaka District of Uganda on January 29, 1951.",openai/gpt-oss-20b,"Jeremiah Mutwalante Twa‑Twa was born on **29 January 1951** in **Budaka District, Uganda**.",1.0,1,1.0
+alpaca_32431,chat,What has been the impact of blockchain technology on the finance industry?,,allam-2-7b,"Blockchain technology has had a significant impact on the finance industry, bringing about changes in various aspects of financial transactions and operations. Here are some of the key impacts:
+
+1. Decentralization: Blockchain technology has enabled the creation of decentralized financial systems, where transactions are not controlled by a central authority or intermediaries. This has led to increased transparency, security, and efficiency in financial transactions.
+
+2. Cryptocurrencies: The most well-known application of blockchain technology is the development of cryptocurrencies like Bitcoin and Ethereum. These digital currencies have disrupted the traditional financial system by offering a decentralized, secure, and transparent way of conducting financial transactions.
+
+3. Smart Contracts: Blockchain technology has enabled the development of smart contracts, which are self-executing contracts with the terms of the agreement directly written into code. Smart contracts automate the execution of financial transactions, reducing the need for intermediaries and improving efficiency.
+
+4. Cross-border payments: Blockchain technology has enabled faster and cheaper cross-border payments, as it eliminates the need for intermediaries like banks and reduces transaction costs. This has made international transactions more accessible and convenient for individuals and businesses.
+
+5. KYC and AML: Blockchain technology has the potential to improve Know Your Customer (KYC) and Anti-Money Laundering (AML) processes in the finance industry. By using blockchain-based solutions, financial institutions can verify customer identities and track transactions more efficiently, reducing the risk of fraud and money laundering.
+
+6. Supply chain management: Blockchain technology has been used to improve supply chain management by providing a transparent and secure way to track goods and payments across different parties involved in the supply chain. This has improved efficiency, reduced fraud, and enhanced transparency.
+
+7. Record-keeping: Blockchain technology has enabled the creation of distributed ledger systems, where transactions are recorded and stored on a decentralized network. This has improved the accuracy, transparency, and security of financial records, reducing the risk of errors and fraud.
+
+8. Regulatory compliance: Blockchain technology has the potential to improve regulatory compliance by providing a transparent and secure way to track financial transactions and ensure that they meet regulatory requirements.
+
+9. Security: Blockchain technology has improved the security of financial transactions by providing a decentralized and tamper-proof ledger that cannot be easily manipulated or hacked.
+
+10. Decentralized finance (DeFi): Blockchain technology has enabled the development of decentralized finance platforms, where financial services are provided without the need for intermediaries like banks or financial institutions. This has opened up financial services to a wider range of individuals and businesses, particularly those who are excluded from traditional financial systems.
+
+In summary, blockchain technology has brought about significant changes to the finance industry, improving efficiency, security, transparency, and accessibility. However, the adoption of blockchain-based solutions is still in its early stages, and there are challenges to overcome, such as regulatory compliance and scalability issues. As the technology continues to evolve, we can expect to see even more significant impacts on the finance industry in the future. ",0.9,1,1.0
+dolly_3922,docqa,"Humans first learned to consume the milk of other mammals regularly following the domestication of animals during the Neolithic Revolution or the development of agriculture. This development occurred independently in several global locations from as early as 9000–7000 BC in Mesopotamia to 3500–3000 BC in the Americas. People first domesticated the most important dairy animals – cattle, sheep and goats – in Southwest Asia, although domestic cattle had been independently derived from wild aurochs populations several times since. Initially animals were kept for meat, and archaeologist Andrew Sherratt has suggested that dairying, along with the exploitation of domestic animals for hair and labor, began much later in a separate secondary products revolution in the fourth millennium BC. Sherratt's model is not supported by recent findings, based on the analysis of lipid residue in prehistoric pottery, that shows that dairying was practiced in the early phases of agriculture in Southwest Asia, by at least the seventh millennium BC. From Southwest Asia domestic dairy animals spread to Europe (beginning around 7000 BC but did not reach Britain and Scandinavia until after 4000 BC), and South Asia (7000–5500 BC). The first farmers in central Europe and Britain milked their animals. Pastoral and pastoral nomadic economies, which rely predominantly or exclusively on domestic animals and their products rather than crop farming, were developed as European farmers moved into the Pontic–Caspian steppe in the fourth millennium BC, and subsequently spread across much of the Eurasian steppe. Sheep and goats were introduced to Africa from Southwest Asia, but African cattle may have been independently domesticated around 7000–6000 BC.
+
+Given this paragraph about the domestication of mammals, tell me the earliest known time period in which dairying occurred and also give me the location.",The earliest known dairying occurred between 9000-7000 BC in Mesopotamia.,openai/gpt-oss-120b,"The earliest direct evidence for dairying dates to **the seventh millennium BC (around 7,000 – 6,000 BC)**, and it comes from **Southwest Asia**.",0.4,0,1.0
+dolly_5233,docqa,"""West Side Story is a musical conceived by Jerome Robbins with music by Leonard Bernstein, lyrics by Stephen Sondheim, and a book by Arthur Laurents.
+
+Inspired by William Shakespeare's play Romeo and Juliet, the story is set in the mid-1950s in the Upper West Side of Manhattan in New York City, then a multiracial, blue-collar neighborhood. The musical explores the rivalry between the Jets and the Sharks, two teenage street gangs of different ethnic backgrounds. The Sharks, who are recent migrants from Puerto Rico, and the Jets, who are white, vie for dominance of the neighborhood, and the police try to keep order. The young protagonist, Tony, a former member of the Jets and best friend of the gang's leader, Riff, falls in love with Maria, the sister of Bernardo, the leader of the Sharks. The dark theme, sophisticated music, extended dance scenes, tragic love story, and focus on social problems marked a turning point in musical theatre.""
+
+Which Shakespeare play inspired West Side Story?",West Side Story was inspired by William Shakespeare's play Romeo and Juliet.,openai/gpt-oss-120b,West Side Story was inspired by William Shakespeare’s tragedy **“Romeo and Juliet.”**,1.0,1,1.0
+alpaca_9511,chat,Give five examples of media bias,,openai/gpt-oss-120b,"Sure! Media bias refers to the ways in which news outlets, journalists, or other content creators can influence the presentation of information—often (intentionally or unintentionally) shaping how audiences perceive events, issues, or people. Below are five common types of media bias, each illustrated with a concrete example.
+
+| # | Type of Bias | What It Looks Like | Example |
+|---|--------------|-------------------|---------|
+| 1 | **Selection (or Coverage) Bias** | Choosing which stories to report (or not report) and how much space/time to give them, thereby shaping what the audience thinks is important. | A news channel devotes a full hour of prime‑time coverage to a local protest while giving only a brief mention to a major national policy change that affects millions of people. |
+| 2 | **Framing Bias** | Presenting facts within a particular “frame” that influences interpretation—emphasizing certain angles, causes, or consequences while downplaying others. | Two outlets cover the same corporate merger: one frames it as “a bold move that will create jobs and boost the economy,” while the other frames it as “a risky consolidation that could lead to layoffs and higher prices.” |
+| 3 | **Political (Ideological) Bias** | Favoring a particular political party, ideology, or candidate, often through language, story selection, or omission of counter‑arguments. | During an election cycle, a newspaper consistently uses positive adjectives (“visionary,” “steady”) for one candidate and negative descriptors (“reckless,” “unqualified”) for the opponent, even when reporting on the same policy issues. |
+| 4 | **Sensationalism (or “Click‑Bait”) Bias** | Emphasizing shocking, dramatic, or emotionally charged elements to attract attention, sometimes at the expense of nuance or accuracy. | A headline reads “Deadly Virus Spreads Like Wildfire!” while the article itself reports a modest increase in cases and notes that most infections are mild. |
+| 5 | **Corporate/Commercial Bias** | Allowing the interests of owners, advertisers, or sponsors to shape coverage—either by promoting products/partners or by avoiding stories that could harm revenue streams. | A lifestyle magazine owned by a major beverage company runs a series of articles praising the health benefits of sugary drinks, while giving little or no coverage to research linking those drinks to obesity. |
+
+### Why These Biases Matter
+- **Public perception:** When certain angles dominate the news cycle, audiences may develop skewed views of reality.
+- **Policy impact:** Biased coverage can influence public opinion, which in turn can affect voting behavior and policy decisions.
+- **Trust in media:** Repeated exposure to bias—especially when perceived as intentional—can erode confidence in journalistic institutions.
+
+### Tips for Spotting Bias
+1. **Check multiple sources** (especially those with differing editorial slants).  
+2. **Look for loaded language** (adjectives or verbs that convey judgment).  
+3. **Notice what’s omitted**—what facts or perspectives are missing?  
+4. **Consider ownership and funding** (who pays the bills?).  
+5. **Ask whether the story is balanced**—does it present more than one side of a contentious issue?
+
+Understanding these examples helps you become a more critical consumer of news and better equipped to separate fact from spin.",1.0,1,1.0
+dolly_10607,docqa,"Babaluku, born Silas Babaluku Balabyekkubo, is a Ugandan rapper, musician, producer, community youth activist and social entrepreneur who raps in Luganda. He is a member of the Bataka Squad. He is the founder of ""the Bavubuka Foundation which equips the youth with leadership skills"". He is one of the pioneers of ""Lugaflow"" which is rap music in Luganda. He was featured in a 2008 documentary ""Diamonds in the Rough: A Ugandan Hip-hop Revolution"" that covered his journey from his crew’s early days of performing in Uganda to performing in at festivals in the United States of America.Early life and educationBababuluku was born in Kampala, Uganda in 1979. He is the first born of eight children to the late Pastor Deo Balabaekubo and Mrs Christine Balabyekubo. He went to Emen Memorial and Molly and Paul Primary schools in Makindye and eventually left for Canada when he was 12 years old. He is a graduate of sound engineering from British Columbia academy in Vancouver.MusicBabaluku started his music career in 1994. He is one of the pioneers of Lugaflow, which is rap in Luganda. He has a number of awards including a Pearl of Africa Award for Best Hip Hop Single and Buzz Teen Awards for Best Hip Hop Artist. The documentary ""Diamonds in the Rough"" in which he featured, won the Audience Choice Award at Dances With Films Festival and Best Feature Documentary at Peace on Earth Film Festival. In 2010 Babaluku was honored by the Ugandan Cultural Association for his Excellence and also chosen as Pioneer of the Year by the Words Beats & Life Remix Teach-In Awards.
+
+From the passage note down the awards won by Babaluku. List the results in comma separated format.","Pearl of Africa Award, Buzz Teen Awards, Audience Choice Award at Dances With Films Festival,Best Feature Documentary at Peace on Earth Film Festival, Honored by the Ugandan Cultural Association for his Excellence, Chosen as Pioneer of the Year by the Words Beats & Life Remix Teach-In Awards",allam-2-7b,"Babaluku has won several awards throughout his career. Here are the awards mentioned in the passage, listed in comma-separated format:
+
+1. Pearl of Africa Award for Best Hip Hop Single
+2. Buzz Teen Awards for Best Hip Hop Artist ",0.2,0,0.0
+dolly_6689,docqa,"Margaret Hall (1876 – 1963) was a volunteer for the American Red Cross during World War I and a photographer who captured images of the conflict. Margaret Hall was a native of Newton, Massachusetts. She was from an affluent family and later inherited and ran her father's woolen mill. In 1899, she graduated from Bryn Mawr College with a degree in history and political science. She was a suffragist who marched in the 1913 Woman Suffrage Procession and also participated in the 1913 Ladies Garment Strike.
+
+What state was Margaret Hall from?",Margaret Hall was from Massachusetts.,allam-2-7b,"The context states that Margaret Hall was a native of Newton, Massachusetts. Therefore, it can be inferred from the information provided that she was from the state of Massachusetts. 
+
+So, the answer to your question is: Massachusetts ",1.0,1,1.0
+alpaca_41278,chat,Find the population of the US in 1960.,,allam-2-7b,"According to the United States Census Bureau, the population of the United States in 1960 was approximately 180 million people. It is important to note that this number may vary slightly depending on the source and the calculation method used. ",1.0,1,1.0
+alpaca_38882,chat,"Take the following numbers and format them correctly according to [ISO8601](https://en.wikipedia.org/wiki/ISO_8601).
+
+47, 1558",,openai/gpt-oss-20b,"**ISO 8601 year format**
+
+| Input | ISO 8601‑formatted year |
+|-------|------------------------|
+| 47    | **0047** |
+| 1558  | **1558** |
+
+*ISO 8601 requires a four‑digit year. For years with fewer than four digits, leading zeros are added (e.g., year 47 AD becomes `0047`).*",1.0,1,1.0
+alpaca_5102,chat,"Write an apt email in 150 words, thanking your current boss for providing you an opportunity for growth.",,allam-2-7b,"Subject: Heartfelt Appreciation for Unleashing My Potential for Growth
+
+Dear [Current Boss's Name],
+
+I hope this email finds you in the best of spirits and high form. I am writing to express my profound gratitude for the invaluable opportunities and guidance you have provided me with during my tenure under your leadership. Your unwavering support has not only shaped my professional growth but also enriched my overall work experience.
+
+Your belief in my capabilities has given me the confidence to take on new challenges and responsibilities. The trust you have placed in me has enabled me to develop new skills, broaden my knowledge, and contribute more meaningfully to our team's success. I am truly grateful for the mentorship and encouragement you have consistently offered, which has empowered me to excel in my role.
+
+Moreover, I want to acknowledge the importance of the transparent communication and open-door policy you have fostered within our team. This environment has enabled us to share ideas, provide feedback, and collaborate effectively, leading to a more productive and harmonious work environment.
+
+Your commitment to our team's growth and development is truly commendable. I am honored to have you as my boss and consider myself fortunate to have learned from a leader of your caliber. I am confident that the skills and insights I have gained under your guidance will serve me well in my future endeavors.
+
+Once again, thank you for your unwavering support, guidance, and belief in my potential. I am truly grateful for the opportunity to learn from you and grow professionally. I am excited to see where this journey takes us and contribute further to the success of our team and organization.
+
+Wishing you continued success in your endeavors.
+
+Warmest regards,
+
+[Your Name]
+[Your Position] ",0.1,0,0.0
+alpaca_31952,chat,"Evaluate the expression provided.
+
+6 - 6 + 8",,allam-2-7b,"The expression 6 - 6 + 8 can be evaluated step by step. 
+
+1. First, perform the operation inside the parentheses (if there were any): Since there aren't, we can move to the next step directly.
+2. Now, subtract and add the numbers outside the parentheses:
+   6 - 6 = 0
+   0 + 8 = 8
+
+So, the result of the expression 6 - 6 + 8 is 8. ",1.0,1,1.0
+alpaca_48805,chat,Develop a classification model to distinguish between positive and negative sentiment.,,allam-2-7b,"To develop a classification model to distinguish between positive and negative sentiment, we can use a supervised learning algorithm. Here are the steps to create such a model:
+
+1. Data Collection: Collect a dataset of text reviews or comments, labeled as positive or negative sentiment. You can use publicly available datasets or create your own dataset.
+
+2. Data Preprocessing: Clean the data by removing stop words, punctuation, and converting text to lowercase. You may also perform stemming or lemmatization to reduce words to their root form.
+
+3. Feature Extraction: Convert the preprocessed text data into numerical features that can be used by the machine learning algorithm. You can use techniques like Bag of Words, TF-IDF, or Word Embeddings to extract features.
+
+4. Split the Data: Split the dataset into training and testing sets. The training set will be used to train the model, while the testing set will be used to evaluate the model's performance.
+
+5. Choose a Machine Learning Algorithm: Select a suitable classification algorithm like Logistic Regression, Decision Trees, Random Forest, Naive Bayes, or Support Vector Machines (SVM).
+
+6. Train the Model: Train the chosen algorithm on the training data using the extracted features.
+
+7. Evaluate the Model: Test the trained model on the testing data to evaluate its performance using metrics like accuracy, precision, recall, and F1-score.
+
+8. Fine-tune the Model: If the model's performance is not satisfactory, you can fine-tune the model by adjusting the hyperparameters or using a different algorithm.
+
+9. Deploy the Model: Once the model is trained and evaluated, you can deploy it to classify new text data as positive or negative sentiment.
+
+10. Continuous Improvement: Continuously monitor the model's performance and update it with new data to improve its accuracy over time.
+
+By following these steps, you can develop a classification model that can accurately distinguish between positive and negative sentiment. ",0.7,1,1.0
+alpaca_38511,chat,"Generate a proverb that aligns with the following message.
+
+There is strength in numbers.",,openai/gpt-oss-120b,Many threads together make an unbreakable rope.,1.0,1,1.0
+alpaca_22864,chat,Collect 10 household items that can be recycled.,,allam-2-7b,"Sure, here are 10 common household items that can be recycled:
+1. زجاجات البلاستيك والجرار
+2. علب الألمنيوم
+3. الصحف والمجلات القديمة
+4. زجاجات الزجاج والجرار
+5. الكرتون والورق المقوى
+6. البطاريات
+7. الأجهزة الإلكترونية (مثل الهواتف المحمولة والكمبيوترات)
+8. الملابس والمنسوجات
+9. أعقاب السجائر
+10. زجاجات وعلب البلاستيك للمشروبات الغازية
+Before recycling, it is important to ensure that the items are clean and free of any food or liquid residue, and that they are sorted properly according to their materials. This helps to ensure that the recycling process is efficient and that the recycled products can be used effectively. ",0.2,0,0.0
+alpaca_7653,chat,Create five realistic example applications that could make use of artificial intelligence.,,openai/gpt-oss-120b,"Below are five **real‑world‑ready** application ideas that leverage current AI capabilities (machine learning, natural‑language processing, computer vision, reinforcement learning, etc.).  Each entry includes a brief description, the core AI techniques that would power it, and the concrete value it would deliver to users or businesses.
+
+---
+
+## 1. **Smart Personal Finance Coach (Mobile & Web)**
+| Aspect | Details |
+|--------|---------|
+| **Problem** | Most people struggle to budget, save, and invest wisely; they either ignore their finances or rely on generic advice that doesn’t fit their habits. |
+| **AI Solution** | • **Transaction classification** (NLP + embeddings) to auto‑tag every purchase (e.g., “groceries”, “subscription”, “travel”). <br>• **Predictive cash‑flow modeling** (time‑series forecasting with Prophet/DeepAR) to anticipate future shortfalls. <br>• **Goal‑oriented recommendation engine** (reinforcement learning + multi‑armed bandits) that suggests personalized actions—e.g., “skip this streaming service for 30 days” or “increase your 401(k) contribution by 0.5 %”. <br>• **Conversational UI** (LLM‑driven chatbot) for “Ask me how I can save $200 this month?” |
+| **Key Benefits** | • Real‑time insight into spending patterns without manual entry. <br>• Actionable, data‑driven suggestions that adapt as income/expenses change. <br>• Higher savings rates and better credit scores for users; lower churn for the fintech provider. |
+| **Tech Stack (example)** | Mobile: React Native + TensorFlow Lite; Backend: Python (FastAPI), PyTorch, PostgreSQL, AWS S3 for receipts OCR; LLM via OpenAI or Anthropic API. |
+
+---
+
+## 2. **AI‑Powered Remote Equipment Inspection Platform (Industrial IoT)**
+| Aspect | Details |
+|--------|---------|
+| **Problem** | Field technicians must travel to remote sites (oil rigs, wind farms, pipelines) to visually inspect equipment. Travel is costly, risky, and inspections are often subjective. |
+| **AI Solution** | • **Computer‑vision anomaly detection** on high‑resolution images/video captured by drones or handheld devices (YOLOv8 + EfficientNet backbone). <br>• **3‑D reconstruction** from multiple viewpoints (NeRF or Structure‑from‑Motion) to spot corrosion under insulation. <br>• **Predictive maintenance scoring** (gradient‑boosted trees on sensor telemetry + visual defect scores). <br>• **Automated report generation** (LLM summarizing findings, attaching annotated images). |
+| **Key Benefits** | • Cuts travel costs by > 60 % (only “high‑risk” assets need a human visit). <br>• Detects defects earlier → reduces downtime and prevents catastrophic failures. <br>• Provides a consistent, auditable inspection record for regulators. |
+| **Tech Stack (example)** | Edge device: NVIDIA Jetson + OpenCV; Cloud: Azure Functions, Azure Custom Vision, Databricks for model training; GIS integration for asset mapping. |
+
+---
+
+## 3. **Dynamic Content Personalization for E‑Learning Platforms**
+| Aspect | Details |
+|--------|---------|
+| **Problem** | Traditional MOOCs present a one‑size‑fits‑all curriculum. Learners drop out when material is too easy, too hard, or irrelevant to their goals. |
+| **AI Solution** | • **Student modeling** using Bayesian Knowledge Tracing + embeddings of interaction logs (clicks, quiz answers, video pauses). <br>• **Content recommendation** via a hybrid of collaborative filtering and sequence‑to‑sequence LLMs that can generate short explanatory snippets or practice problems on demand. <br>• **Adaptive assessment** (RL‑based policy that selects the next question to maximize learning gain). <br>• **Sentiment & engagement monitoring** (speech‑to‑text + sentiment analysis on discussion posts) to flag frustration early. |
+| **Key Benefits** | • Learners stay in the “zone of proximal development,” boosting completion rates by 20‑30 %. <br>• Instructors get analytics on which concepts need better instructional design. <br>• Platform can monetize premium “personal tutor” add‑ons. |
+| **Tech Stack (example)** | Front‑end: Vue.js + WebRTC for live video; Backend: Python (Django), PyTorch Lightning for models, Redis for real‑time scoring, PostgreSQL for learning records. |
+
+---
+
+## 4. **AI‑Enhanced Legal Contract Review SaaS**
+| Aspect | Details |
+|--------|---------|
+| **Problem** | Lawyers spend hours manually scanning contracts for risky clauses, missing deadlines, or non‑standard language. Small firms can’t afford large review teams. |
+| **AI Solution** | • **Clause extraction & classification** using transformer‑based NER (e.g., LegalBERT) to tag indemnity, termination, confidentiality, etc. <br>• **Risk scoring** with a supervised model trained on historical negotiation outcomes (log‑odds of clause being renegotiated). <br>• **Change‑impact analysis** (diff‑aware embeddings) that highlights how a new amendment alters the overall risk profile. <br>• **Chat‑based Q&A** (retrieval‑augmented generation) that lets users ask “What is the notice period for termination?” and get precise answers with source citations. |
+| **Key Benefits** | • Cuts contract review time from days to minutes for routine agreements. <br>• Reduces exposure to hidden liabilities; improves compliance. <br>• Enables subscription pricing for SMBs and a “pay‑per‑review” model for larger enterprises. |
+| **Tech Stack (example)** | Document ingestion: AWS Textract OCR → PDF → text; NLP pipeline: Hugging Face Transformers on SageMaker; UI: React + Draft.js with inline annotation layers. |
+
+---
+
+## 5. **Personalized Nutrition & Meal‑Planning Assistant (Smart Kitchen)**
+| Aspect | Details |
+|--------|---------|
+| **Problem** | People want healthier eating habits but lack time, knowledge of nutrition, or the ability to adapt meals to allergies, fitness goals, and grocery budgets. |
+| **AI Solution** | • **Food‑image recognition** (EfficientNet‑B3) to log meals instantly from a phone snap. <br>• **Nutrient estimation** using a knowledge graph linking ingredients to macro/micronutrient databases. <br>• **Goal‑driven meal generation** (seq2seq LLM fine‑tuned on recipe data) that creates weekly menus respecting constraints (e.g., “≤ 30 g carbs per day”, “vegetarian”, “budget <$50”). <br>• **Smart pantry integration** (IoT weight sensors + barcode scanning) to suggest recipes based on what’s already on hand, reducing waste. |
+| **Key Benefits** | • Users meet diet targets without manual calorie counting. <br>• Grocery spend drops by ~15 % thanks to better inventory use. <br>• Kitchen appliance manufacturers can bundle the service with smart fridges or ovens for a differentiated product. |
+| **Tech Stack (example)** | Mobile: Flutter; Backend: FastAPI + PyTorch; Nutrition DB: USDA FoodData Central; IoT hub: MQTT broker on Azure IoT Hub; LLM via OpenAI’s GPT‑4o with custom prompt templates. |
+
+---
+
+### Common Success Factors for All Five Apps
+| Factor | Why It Matters |
+|--------|----------------|
+| **High‑quality labeled data** (e.g., annotated contracts, transaction categories) – essential for supervised models. |
+| **Human‑in‑the‑loop** – a review step (lawyer, financial advisor, technician) keeps the system trustworthy and provides feedback for continual model improvement. |
+| **Explainability** – risk scores, recommendation rationales, or visual heatmaps help users trust AI decisions, especially in regulated domains (finance, legal, industrial). |
+| **Privacy‑by‑design** – on‑device inference for sensitive data (financial transactions, health‑related nutrition) and encryption at rest/transit to meet GDPR/CCPA. |
+| **Scalable infrastructure** – serverless functions for bursty workloads (e.g., contract uploads) and edge compute for low‑latency tasks (vision on drones). |
+
+These five examples illustrate how AI can be embedded into everyday workflows—finance, industry, education, law, and health—delivering measurable ROI while staying within the bounds of today’s technology stack.",1.0,1,1.0
+dolly_6625,docqa,"The Sun Also Rises is a 1926 novel by American writer Ernest Hemingway, his first, that portrays American and British expatriates who travel from Paris to the Festival of San Fermín in Pamplona to watch the running of the bulls and the bullfights. An early modernist novel, it received mixed reviews upon publication. Hemingway biographer Jeffrey Meyers writes that it is now ""recognized as Hemingway's greatest work"" and Hemingway scholar Linda Wagner-Martin calls it his most important novel. The novel was published in the United States in October 1926 by Scribner's. A year later, Jonathan Cape published the novel in London under the title Fiesta. It remains in print.
+
+The novel is a roman à clef: the characters are based on people in Hemingway's circle and the action is based on events, particularly Hemingway's life in Paris in the 1920s and a trip to Spain in 1925 for the Pamplona festival and fishing in the Pyrenees. Hemingway presents his notion that the ""Lost Generation""—considered to have been decadent, dissolute and irretrievably damaged by World War I—was in fact resilient and strong. Hemingway investigates the themes of love and death, the revivifying power of nature and the concept of masculinity. His spare writing style, combined with his restrained use of description to convey characterizations and action, demonstrates his ""Iceberg Theory"" of writing.
+
+What is the book ""The Sun Also Rises"" about?","The Sun Also Rises is a book based on people Hemingway knew from his life in Paris, fishing in the Pyrenees, and a trip to the Pamplona festival in Spain.",allam-2-7b,"The book ""The Sun Also Rises"" is about American and British expatriates who travel from Paris to the Festival of San Fermín in Pamplona to watch the running of the bulls and the bullfights. It portrays their experiences during this trip and how they cope with life after World War I.
+Therefore, based on this information, we can conclude that the answer should be: ""American and British expatriates travel from Paris to Pamplona to watch bullfights and bull running."" ",0.8,1,1.0
+dolly_11661,docqa,"Detective Hieronymus ""Harry"" Bosch is a fictional character created by American author Michael Connelly. Bosch debuted as the lead character in the 1992 novel The Black Echo, the first in a best-selling police procedural series now numbering 24 novels.
+
+The novels are more or less coincident in timeframe with the year in which they were published. Harry, as he is commonly known by his associates, is a veteran police homicide detective with the Los Angeles Police Department. He was named after the 15th-century Dutch artist Hieronymus Bosch.
+
+Titus Welliver portrayed the title character from 2015 to 2021 in Bosch, a television series adapted from the novels, and from 2022 in its spin-off series Bosch: Legacy.
+
+What was the first Harry Bosch book called?","The first novel in the Harry Bosch series  by Michael Connelly was The Black Echo, published in 1992.",openai/gpt-oss-120b,The first Harry Bosch novel is **“The Black Echo.”** It debuted in 1992 as the opening book of Michael Connelly’s series.,1.0,1,1.0
+alpaca_17910,chat,Formulate the opposite of 'gathering'.,,openai/gpt-oss-20b,**Opposite of “gathering”:** *dispersal* (or *scatter*).,1.0,1,1.0
+dolly_4410,docqa,"Dried fruit is fruit from which the majority of the original water content has been removed either naturally, through sun drying, or through the use of specialized dryers or dehydrators. Dried fruit has a long tradition of use dating back to the fourth millennium BC in Mesopotamia, and is prized because of its sweet taste, nutritive value and long shelf life.
+Today, dried fruit consumption is widespread. Nearly half of the dried fruits sold are raisins, followed by dates, prunes, figs, apricots, peaches, apples, and pears. These are referred to as ""conventional"" or ""traditional"" dried fruits: fruits that have been dried in the sun or in heated wind tunnel dryers. Many fruits such as cranberries, blueberries, cherries, strawberries, and mango are infused with a sweetener (e.g. sucrose syrup) prior to drying. Some products sold as dried fruit, like papaya, kiwifruit and pineapple, are most often candied fruit.
+Dried fruits retain most of the nutritional value of fresh fruits. The specific nutrient content of the different dried fruits reflects their fresh counterpart and the processing method.
+
+Which fruits are often infused with a sweetener prior to drying?","Many fruits such as cranberries, blueberries, cherries, strawberries, and mango are infused with a sweetener (e.g. sucrose syrup) prior to drying.",allam-2-7b,"The context mentions that many fruits are infused with a sweetener prior to drying. The specific example given is cranberries, blueberries, cherries, strawberries and mango.
+Therefore, based on this information we can conclude that these are often infused with a sweetener before drying. ",1.0,1,1.0
+alpaca_28407,chat,"What does this article suggest about the role of technology in the environment?
+
+Article Title: Technology and the Environment 
+
+Article Content:
+Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.",,openai/gpt-oss-20b,"The article argues that technology is a double‑edged sword for the environment.  
+
+- **Positive side:** Scientific and engineering advances have enabled human growth and prosperity.  
+- **Negative side:** The same advances—especially in transportation and industry—have produced large carbon emissions and other pollutants that degrade climate, air, and water quality.  
+
+The key takeaway is that we must shift toward **more efficient, cleaner technologies** that can sustain human development while minimizing environmental harm. In short, technology can both damage and heal the environment, and the future depends on how we choose to innovate.",1.0,1,1.0
+dolly_4281,docqa,"Jiang Zemin (17 August 1926 – 30 November 2022) was a Chinese politician who served as general secretary of the Chinese Communist Party (CCP) from 1989 to 2002, as chairman of the Central Military Commission from 1989 to 2004, and as president of China from 1993 to 2003. Jiang was paramount leader of China from 1989 to 2002. He was the core leader of the third generation of Chinese leadership, one of four core leaders alongside Mao Zedong, Deng Xiaoping and Xi Jinping.
+
+Born in Yangzhou, Jiangsu, Jiang joined the CCP while he was in college. After the establishment of the People's Republic of China in 1949, he received training at the Stalin Automobile Works in Moscow in the 1950s, later returning to Shanghai in 1962 to serve in various institutes, later being sent between 1970-1972 to Romania as part of an expert team to establish machinery manufacturing plants in the country. After 1979, he was appointed as the vice chair of two commissions by vice premier Gu Mu to oversee the newly-established special economic zones (SEZs). He became the vice minister of the newly-established Ministry of Electronics Industry and a member of the CCP Central Committee in 1982.
+
+Jiang was appointed as the mayor of Shanghai in 1985, later being promoted to its Communist Party secretary, as well as a member of the CCP Politburo, in 1987. Jiang came to power unexpectedly as a compromise candidate following the 1989 Tiananmen Square protests and massacre, when he replaced Zhao Ziyang as CCP general secretary after Zhao was ousted for his support for the student movement. As the involvement of the ""Eight Elders"" in Chinese politics steadily declined, Jiang consolidated his hold on power to become the ""paramount leader"" in the country during the 1990s. Urged by Deng Xiaoping's southern tour in 1992, Jiang officially introduced the term ""socialist market economy"" in his speech during the 14th CCP National Congress held later that year, which accelerated ""opening up and reform"".
+
+Under Jiang's leadership, China experienced substantial economic growth with the continuation of market reforms. The returning of Hong Kong from the United Kingdom in 1997 and of Macau from Portugal in 1999, and entry into the World Trade Organisation in 2001, were landmark moments of his era. China also witnessed improved relations with the outside world, while the Communist Party maintained its tight control over the state. Jiang faced criticism over human rights abuses, including the crackdown on the Falun Gong movement. His contributions to party doctrine, known as the ""Three Represents"", were written into the CCP constitution in 2002. Jiang gradually vacated his official leadership titles from 2002 to 2005, being succeeded in these roles by Hu Jintao, although he and his political faction continued to influence affairs until much later. On 30 November 2022, Jiang died from leukemia and multiple organ failure in Shanghai.
+
+What's Jiang's theoretical contribution?",The Three Represents,openai/gpt-oss-120b,"Jiang Zemin’s most important theoretical contribution to the Chinese Communist Party (CCP) is the doctrine known as the **“Three Represents” (三个代表)**, which he first articulated in a series of speeches in the mid‑1990s and formally incorporated into the Party’s constitution in 2002.
+
+### Core Content of the “Three Represents”
+
+1. **The Party Must Represent the Development Trends of Advanced Social Productive Forces**  
+   - This clause expands the Party’s economic base beyond the traditional proletariat to include entrepreneurs, private‑sector managers, scientists, engineers, and other “advanced productive forces.” It signals an official endorsement of market‑oriented reforms and the growing role of non‑state enterprises in China’s economy.
+
+2. **The Party Must Represent the Forward‑Going Orientation of China’s Advanced Culture**  
+   - Here Jiang stresses that the Party should be the guardian and promoter of modern, progressive cultural values, including scientific rationality, education, and a “socialist” moral framework that can coexist with global cultural currents. It legitimizes the import of foreign ideas and technologies while insisting on a Chinese‑centric interpretation.
+
+3. **The Party Must Represent the Fundamental Interests of the Broadest Masses of the People**  
+   - This expands the Party’s claim to represent not only workers and peasants (the classic Marxist base) but also the “broadest masses,” which now includes the emerging middle class, private business owners, and other social groups created by reform‑and‑opening policies.
+
+### Why It Matters Theoretically
+
+| Aspect | Traditional Marxist‑Leninist View | Jiang’s Innovation |
+|--------|-----------------------------------|--------------------|
+| **Class Base** | Party = vanguard of the proletariat | Party’s base broadened to include “advanced productive forces” (including capitalists) |
+| **Legitimacy** | Derived from leading the working class in a socialist revolution | Derived from steering China’s modernization and representing the interests of a diversified society |
+| **Ideological Flexibility** | Rigid class analysis, limited tolerance for market mechanisms | Explicitly embraces market economics and private ownership as compatible with socialism, provided they serve national development |
+| **Constitutional Status** | Party doctrine largely separate from state constitution | “Three Represents” enshrined in the CCP constitution, giving it the same formal weight as Mao’s “continuous revolution” and Deng’s “socialist market economy” |
+
+### Practical Implications
+
+- **Political Inclusion of Entrepreneurs:** By declaring that private business owners could be “advanced productive forces,” Jiang opened the door for them to join the Party, thereby co‑opting a new social group that had previously been viewed with suspicion.
+- **Legitimizing Economic Reform:** The doctrine provided an ideological justification for deepening market reforms, foreign investment, and integration into the global economy (e.g., WTO accession in 2001).
+- **Continuity with Deng Xiaoping:** While Deng emphasized “socialism with Chinese characteristics,” Jiang’s “Three Represents” extended that line by explicitly linking Party legitimacy to the interests of a broader, more affluent society.
+- **Foundation for Later Leadership:** The concept paved the way for subsequent leaders (Hu Jintao’s “Scientific Outlook on Development” and Xi Jinping’s “Chinese Dream”) to further broaden the Party’s claim to represent a wide array of social interests while maintaining tight political control.
+
+### Scholarly Assessment
+
+- **Ideological Evolution:** Scholars view the “Three Represents” as a pivotal moment in the CCP’s ideological evolution, marking the transition from a class‑based revolutionary party to a **“development‑oriented”** party that seeks legitimacy through economic performance and social stability.
+- **Critiques:** Critics argue that the doctrine masks the continued authoritarian nature of the regime, using economic success to legitimize political repression (e.g., crackdown on Falun Gong, tightened internet censorship). Others note that the broadened definition of “representing the masses” can be vague, allowing the Party to claim representation while sidelining dissenting voices.
+- **Legacy:** The “Three Represents” remains a cornerstone of contemporary CCP theory; it is still taught in Party schools and cited in official speeches as a justification for the Party’s role in guiding China’s modernization.
+
+### Bottom Line
+
+Jiang Zemin’s theoretical contribution is the articulation and institutionalization of the **“Three Represents”**, a doctrine that re‑defines the CCP’s constituency, legitimizes market‑based reforms, and expands the Party’s claim to represent the interests of a modern, diversified Chinese society. This doctrine reshaped the ideological foundation of the Party and set the stage for China’s rapid economic rise while preserving the Party’s monopoly on political power.",1.0,1,1.0
+dolly_7495,docqa,"Shivaji Shivaji Bhosale (19 February 1630 – 3 April 1680), popularly known as Chhatrapati Shivaji Maharaj , was an Indian king and founder of the Maratha Empire .  Shivaraya carved out his own independent kingdom from the decaying Adilshahi of Bijapur and established the Maratha Empire. A.D. He was formally enthroned as Chhatrapati in 1674 at Raigad Fort . 
+
+During his reign, Shivaji Maharaj had both alliances and enmity with the Mughal Empire , the Qutub Shahi of Gowalkonda , the Adil Shahi of Bijapur and the European colonial powers. Chhatrapati Shivaji Maharaj built a powerful and progressive state on the strength of a disciplined army and a well-organized administrative system. Apart from repairing the forts in the coastal and interior regions, he also built many new forts.  Shivarai established a competent and progressive civil government with disciplined administrative organizations. He revived the ancient Hindu political traditions, court conventions.
+
+With his excellent knowledge of the terrain, amazing speed of movement and the technique of guerilla poetry , he successfully fought the mighty Mughal and Adil Shahi forces with a small force. He encouraged the use of Marathi and Sanskrit languages ​​instead of Parsi , which was the norm at that time, in governance .  In the Indian freedom struggle, nationalist leaders used Shivaji Maharaj's heroic stories to rally people and boost their morale. 
+
+
+This portrait of Chhatrapati Shivaji Maharaj is from the British Museum in London . h 1680-1687
+Shivaji Maharaj's legacy varied with observers and time. But nearly two centuries after his death, he began to gain more prominence with the rise of the Indian independence movement as many Indian freedom fighters considered him a proto-nationalist and Hindu hero. Shivaji Maharaj has a great influence in the social and political history of Maharashtra . Shivaji Maharaj is an integral part of the identity of the Marathi people .  Shivaji Maharaj's birthday is celebrated as Shiv Jayanti . 
+
+When was Chhatrapati Shivaji Maharaj born?","Chhatrapati Shivaji Maharaj was born on 19, February 1630",openai/gpt-oss-120b,Chhatrapati Shivaji Maharaj was born on **19 February 1630**.,1.0,1,1.0
+alpaca_20834,chat,Suggest a movie that features a strong female lead character.,,allam-2-7b,"One movie that features a strong female lead character is ""Wonder Woman"" (2017), directed by Patty Jenkins. The movie stars Gal Gadot as Diana Prince/Wonder Woman, a fierce and powerful warrior who fights for justice and peace in the world. The film showcases Diana's determination, courage, and strength as she navigates through war, deceit, and betrayal while upholding her values and beliefs. Wonder Woman is a critically acclaimed superhero film that highlights the importance of female empowerment and role models. ",1.0,1,1.0

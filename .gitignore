@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/*.db*
+gateway/models/*.joblib
+gateway/models/onnx/
+.pytest_cache/

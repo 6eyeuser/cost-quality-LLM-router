@@ -1,0 +1,8 @@
+# Enough to run the test suite offline (hash embedder, no model downloads).
+-r requirements-serve.txt
+pandas>=2.1,<4
+matplotlib>=3.8,<4
+pytest>=8
+onnx>=1.16
+openai>=1.50,<4
+tqdm>=4.66

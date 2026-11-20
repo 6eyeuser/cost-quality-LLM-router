@@ -1,0 +1,17 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements-dev.txt
+      - run: ROUTER_EMBEDDER=hash python -m pytest -q
+      - name: synthetic end-to-end smoke (train -> evaluate)
+        env: { ROUTER_EMBEDDER: hash, ROUTER_DB: /tmp/s.db, ROUTER_RESULTS: /tmp/res, ROUTER_ARTIFACT: /tmp/r.joblib }
+        run: |
+          python -m scripts.make_synthetic --n 1500
+          python -m scripts.train_router
+          python -m scripts.evaluate_router --n-boot 200
